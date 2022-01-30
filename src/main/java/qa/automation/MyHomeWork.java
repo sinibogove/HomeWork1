@@ -17,7 +17,7 @@ public class MyHomeWork {
                 if (hobby.equals("yes")) {
                     System.out.println("What is your hobby?");
                     String hobbyType = scanner.next();
-                    System.out.println("Very nice.");
+                    System.out.println(hobbyType+ " is a wonderful hobby.");
             }
                 if (hobby.equals("no")) {
                     System.out.println("How pity! You must be living a boring life?");
